@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Ubuntu:ital@1&family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #d2ddddfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.my-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 390px;
+    width: 100%;
+    padding: 30px;
+    background-color: aliceblue;
+    box-shadow: 0 5px 20px rgb(0,0, 0.1);
+    border-radius: 20px;
+    position: relative;
+}
+.my-profile::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background-color: #024ab4;
+}
+.image{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #00ffffad;
+    border-radius: 50%;
+    padding: 2px;
+    margin-bottom: 10px;
+    
+}
+.image .image-profile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #024ab4;
+    cursor: pointer;
+}
+.my-profile .text-date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-profile .text-date .name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.my-profile .text-date .job{
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top: 10px;
+}
+b{
+    font-size: 25px;
+    font-weight: bold;
+}
+.my-profile .media-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 20px;
+}
+.my-profile .media-icons .link{
+    height: 40px;
+    width:40px ;
+    font-size: 22px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    
+}
+.my-profile .buttons{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.my-profile .buttons .button{
+    padding: 6px 2px;
+    margin: 0 10px;
+    width: 80%;
+    background-color:#024ab4 ;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s;
+}
+.my-profile .buttons .button:hover{
+    background-color: transparent;
+    border: #2e78e6 1px solid;
+    color:#2e78e6 ;
+}
+.my-profile .anlytics{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.my-profile .anlytics .data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #333;
+    border-right: 2px #e7e7e7 solid;
+    padding-right: 30px;
+    
+}
+.my-profile .anlytics .med{
+    border-right: none;
+}
+.my-profile .anlytics .data i{
+    font-size: 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+.my-profile .anlytics .data span{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
